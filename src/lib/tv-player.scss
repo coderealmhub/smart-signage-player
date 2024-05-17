@@ -1,0 +1,38 @@
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+.tv-player {
+  background: black;
+  :focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+
+.tv-player {
+  height: 100vh;
+  /* full 100vh height or padding-top: 56.25%; // Player ratio: 100 / (1280 / 720) */
+  position: relative;
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  video {
+    background-color: black;
+  }
+}
+
+img.yt-preview {
+  object-position: center;
+  object-fit: cover;
+  display: none;
+  &.show {
+    display: block;
+  }
+}
