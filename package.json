@@ -5,8 +5,8 @@
   "private": false,
   "version": "1.1.7",
   "type": "module",
-  "homepage": "https://lewhunt.github.io/react-tv-player",
-  "repository": "https://github.com/lewhunt/react-tv-player.git",
+  "homepage": "https://coderealmhub.github.io/smart-signage-player/",
+  "repository": "https://github.com/coderealmhub/smart-signage-player",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
