@@ -1,5 +1,5 @@
 {
-  "name": "react-tv-player",
+  "name": "smart-signage-player",
   "author": "Lewis Hunt",
   "description": "A React media player component for TV devices. With custom UI and arrow-key navigation, it can play a variety of URLs like file paths, HLS/DASH streams and even YouTube & Vimeo links directly. Packaged as an npm library for easy integration.",
   "private": false,
